@@ -7,3 +7,5 @@ workflows:
       PYTHONPATH: src
     artifacts:
       - models
+    resources:
+      gpu: ${{ pgpu }}
