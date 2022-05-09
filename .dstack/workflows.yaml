@@ -4,6 +4,6 @@ workflows:
       requirements: requirements.txt
       script: app.py
       environment:
-          PYTHONPATH: src
+        PYTHONPATH: src
       artifacts:
-          - models
+        - models
